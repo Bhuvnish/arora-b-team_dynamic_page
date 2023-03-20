@@ -4,4 +4,24 @@
 }
 #main-header {
     text-align: center;
+  
+    color: aliceblue;
+    height: 50px;
+    
+}
+#container{
+     background-image: url("../images/background.jpg") ;
+     
+        background-size:cover;
+        background-repeat: no-repeat;
+    
+        background-blend-mode: multiply;
+        text-align: center;
+       
+        height: auto;
+        text-align: center;
+        
+    }
+#img{
+    align-items: end;
 }
