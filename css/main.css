@@ -10,18 +10,170 @@
     
 }
 #container{
-     background-image: url("../images/background.jpg") ;
+     background-image: url("../images/zima4.jpg") ;
      
-        background-size:cover;
-        background-repeat: no-repeat;
+     background-size:cover;
+     background-repeat: no-repeat;
+ 
+     background-blend-mode: multiply;
+     text-align: center;
     
-        background-blend-mode: multiply;
-        text-align: center;
-       
-        height: auto;
-        text-align: center;
+     height: auto;
+     text-align: center;
+        
         
     }
-#img{
-    align-items: end;
+    #main-header h2{
+        font-size: 40px;
+
+    }
+
+#main-header h3{
+    font-size: 30px;
 }
+
+#container2{
+    margin-top: 125px;
+    color: azure;
+    background-image: url("../images/zima4.jpg") ;
+     
+  
+}
+#container2  h2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#change-profile{
+    border: 1px solid whitesmoke;
+	height: 30px;
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+    align-items: center;
+    margin-top: -150px;
+    font-size: 18px;
+  
+}
+
+#designer{
+    border: 2px solid whitesmoke;
+	height: 30px;
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+    align-items: center;
+    margin-top: -70px;
+    font-size: 18px;
+  
+}
+
+
+
+
+
+
+.lightbox {
+    width: 100vw;
+    height: 100vh;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(30, 30, 30, 30.85);
+    background-image: url('../images/Untitled-1.png');
+    background-repeat: no-repeat;
+
+    background-size: 55vh;
+    background-position: 40px center;
+
+    z-index: 5000;
+
+    display: none;
+}
+
+
+.lightbox_close{
+    margin-left: 1300px;
+    font-size: 40px;
+    color: white;
+    margin-bottom: -200px;
+}
+
+
+.lightbox_close:hover { opacity: 0.5; color: skyblue; }
+
+.lightbox article {
+    width: 55%;
+    margin-left: 40%;
+}
+
+.lb_text, .lb_heading {
+    text-align: left;
+    color: white;
+}
+
+.lb_text {
+    line-height: 1.6 !important;
+    margin-left: 0;
+    padding-top: 2em;
+    color: white;
+}
+
+
+.lightbox:target { display: block; }
+
+
+/* mr audin lightbox */
+
+.lightbox1 {
+    width: 100vw;
+    height: 100vh;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(30, 30, 30, 30.85);
+    background-image: url('../images/logan2.JPG');
+    background-repeat: no-repeat;
+
+    background-size: 55vh;
+    background-position: 40px center;
+
+    z-index: 5000;
+
+    display: none;
+}
+
+
+.lightbox_close1{
+    margin-left: 1300px;
+    font-size: 40px;
+    color: white;
+    margin-bottom: -200px;
+}
+
+
+.lightbox_close1:hover { opacity: 0.5; color: skyblue; }
+
+.lightbox1 article {
+    width: 55%;
+    margin-left: 40%;
+}
+
+.lb_text, .lb_heading { 
+    text-align: left;
+    color: white;
+}
+
+.lb_text {
+    line-height: 1.6 !important;
+    margin-left: 0;
+    padding-top: 2em;
+    color: white;
+}
+
+
+.lightbox1:target { display: block; }
