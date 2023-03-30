@@ -25,11 +25,13 @@
     }
     #main-header h2{
         font-size: 40px;
+       font-style:oblique;
 
     }
 
 #main-header h3{
     font-size: 30px;
+    font-family: cursive;
 }
 
 #container2{
@@ -45,14 +47,7 @@
 }
 
 #change-profile{
-    border: 1px solid whitesmoke;
-	height: 30px;
-	text-decoration: none;
-	cursor: pointer;
-	color: white;
-    align-items: center;
-    margin-top: -150px;
-    font-size: 18px;
+   
   
 }
 
@@ -68,6 +63,22 @@
   
 }
 
+.button{
+    border: 1px solid skyblue;
+	height: 30px;
+	text-decoration: none;
+	cursor: pointer;
+	
+    align-items: center;
+    margin-top: -150px;
+    font-size: 18px;
+  
+}
+
+.button:hover{
+	background-color: rgb(229, 229, 229);
+	color:black;
+}
 
 
 
@@ -115,8 +126,8 @@
 }
 
 .lb_text {
-    line-height: 1.6 !important;
-    margin-left: 0;
+   
+   
     padding-top: 2em;
     color: white;
 }
@@ -169,7 +180,7 @@
 }
 
 .lb_text {
-    line-height: 1.6 !important;
+    
     margin-left: 0;
     padding-top: 2em;
     color: white;
