@@ -46,10 +46,7 @@
     margin-bottom: 30px;
 }
 
-#change-profile{
-   
-  
-}
+
 
 #designer{
     border: 2px solid whitesmoke;
@@ -63,23 +60,24 @@
   
 }
 
-.button{
+.button  {
     border: 1px solid skyblue;
 	height: 30px;
 	text-decoration: none;
 	cursor: pointer;
-	
+	background-color: skyblue;
+    
     align-items: center;
     margin-top: -150px;
     font-size: 18px;
   
 }
 
-.button:hover{
-	background-color: rgb(229, 229, 229);
-	color:black;
-}
+.button a{
+    color: aliceblue;
+    text-decoration: none;
 
+}
 
 
 
@@ -147,7 +145,7 @@
     left: 0;
 
     background-color: rgba(30, 30, 30, 30.85);
-    background-image: url('../images/logan2.JPG');
+    background-image: url('../images/audin-2.JPG');
     background-repeat: no-repeat;
 
     background-size: 55vh;
