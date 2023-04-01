@@ -108,14 +108,15 @@
     font-size: 40px;
     color: white;
     margin-bottom: -200px;
+    text-decoration: none;
 }
 
 
 .lightbox_close:hover { opacity: 0.5; color: skyblue; }
 
 .lightbox article {
-    width: 55%;
-    margin-left: 40%;
+    width: 35%;
+    margin-left: 45%;
 }
 
 .lb_text, .lb_heading {
@@ -162,14 +163,15 @@
     font-size: 40px;
     color: white;
     margin-bottom: -200px;
+    text-decoration: none;
 }
 
 
 .lightbox_close1:hover { opacity: 0.5; color: skyblue; }
 
 .lightbox1 article {
-    width: 55%;
-    margin-left: 40%;
+    width: 35%;
+    margin-left: 45%;
 }
 
 .lb_text, .lb_heading { 
