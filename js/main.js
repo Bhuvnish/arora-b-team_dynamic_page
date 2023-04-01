@@ -1,30 +1,36 @@
-let junish = document.querySelectorAll('.button a'),
-    lightBox = document.querySelector('#lightbox')
+
+
+let bhuvnish = document.querySelectorAll('.button a'),
+    lightBox = document.querySelector('#lightbox'),
+    headline = lightBox.querySelector('#lb_heading'),
+    bio = lightBox.querySelector('#lb_text');
 ;
 
 
 function loadMyData() {
     //debugger;
 
-    lightBox.querySelector('h3').textContent = junish[this.dataset.member].headline;
-    lightBox.querySelector('p').textContent = junish[this.dataset.member].bio;
+    lightBox.querySelector('h3').textContent = bhuvnish[this.dataset.member].headline;
+    lightBox.querySelector('p').textContent = bhuvnish[this.dataset.member].bio;
 
 }
 
-junish.forEach(hero => hero.addEventListener('click',loadMyData));
+bhuvnish.forEach(hero => hero.addEventListener('click',loadMyData));
 
 
-let logan = document.querySelectorAll('.button a'),
+let audin = document.querySelectorAll('.button a'),
     lightBox1 = document.querySelector('#lightbox1')
+   
 ;
+
 
 
 function loadMyData() {
     //debugger;
 
-    lightBox.querySelector('h3').textContent = logan[this.dataset.member].headline;
-    lightBox.querySelector('p').textContent = logan[this.dataset.member].bio;
+    lightBox.querySelector('h3').textContent = audin[this.dataset.member].headline;
+    lightBox.querySelector('p').textContent = audin[this.dataset.member].bio;
 
 }
 
-logan.forEach(hero => hero.addEventListener('click',loadMyData));
+audin.forEach(hero => hero.addEventListener('click',loadMyData));

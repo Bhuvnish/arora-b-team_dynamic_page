@@ -1,13 +1,13 @@
 let me ={
-    junish: {
-        name:'JUNISH ARORA',
+    bhuvnish: {
+        name:'BHUVNISH ARORA',
         headline:'DEVELOPER',
-        bio:'I LOVE TO WRITE CODE , IT IS SOMETHING THAT CAN RAISE YOU AT A DIFFERENT LEVEL. I STARTED LEARNING THIS IN 2022 BUT NOW I AM SURE I AM BEING INTO IT FOR WHOLE OF MY LIFE',
+        bio:' Hy my name is bhuvnish arora , I am from india i am 22 years old .I completed my studies in  science field and now i am  currently enrolled in intractive media design in fanshawe collage I love to  write and learn coading I bieleve that a great programmer  is able to understand problem clearly,break them down into hypotheses,and propose solution in a coherent manner.',
     },
 
-    logan: {
-        name:'LOGAN HUFFMAN',
+    audin: {
+        name:'MR AUDIN',
         headline:'DESIGNER',
-        bio:'I LOVE TO DESIGN THINGS IN PHOTOSHOP, IT IS A LOT OF FUN. MY FAVOURITE TYPE OF THINGS TO DESIGN IN PHHOTOSOHP ARE USER INTERFACES & LOGOS/ICONS.',
+        bio:'Hy my name is audin i love to bark whole day ,i am 3 years old and i love to do designing use photoshop to manipulate images  and making videos in  after effects .',
     },
 }
